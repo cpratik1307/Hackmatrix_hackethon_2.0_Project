@@ -2,7 +2,7 @@
 
 ## <div align="center">Design a solution to improve the focus of students and enhance attention span while studying.</div>
 
-##Team Name:- 
+## Team Name:- 
    -AkshayKumar
    -Pratik
    -Rutwik
