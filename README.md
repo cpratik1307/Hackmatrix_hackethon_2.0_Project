@@ -2,11 +2,11 @@
 
 ## <div align="center">Design a solution to improve the focus of students and enhance attention span while studying.</div>
 
-## Team Name:- 
-   -AkshayKumar
-   -Pratik
-   -Rutwik
-   -Prathamesh
+## Team Name
+   - AkshayKumar
+   - Pratik
+   - Rutwik
+   - Prathamesh
    
 ## Description
 <div>StudyFocus is a study aid that helps students maintain focus and attention during learning activities. 
