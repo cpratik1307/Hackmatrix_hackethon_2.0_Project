@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technology Interest Survey</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f5ff; /* Light blue background */
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff; /* White container background */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    }
+    h1, h2, h3 {
+        color: #333333; /* Dark gray heading color */
+        text-align: center;
+    }
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333333; /* Dark gray label color */
+    }
+    select, input[type="text"], input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #cccccc; /* Light gray border */
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    button {
+        background-color: #007bff; /* Blue button background */
+        color: #ffffff; /* White button text color */
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Technology Interest Survey</h1>
+    <label>Experience with Programming:</label>
+<select name="programming_experience">
+    <option value="" selected>Select...</option>
+    <option value="advanced">Advanced</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="beginner">Beginner</option>
+    <option value="no_experience">No experience</option>
+</select>
+
+<label>Interest in Emerging Technologies:</label>
+<select name="emerging_technologies_interest">
+    <option value="" selected>Select...</option>
+    <option value="very_interested">Very interested</option>
+    <option value="somewhat_interested">Somewhat interested</option>
+    <option value="neutral">Neutral</option>
+    <option value="not_very_interested">Not very interested</option>
+    <option value="not_interested_at_all">Not interested at all</option>
+</select>
+
+<label>Preferred Project Types:</label>
+<select name="preferred_project_types">
+    <option value="" selected>Select...</option>
+    <option value="web_development">Web development</option>
+    <option value="mobile_app_development">Mobile app development</option>
+    <option value="data_science_analytics">Data science and analytics</option>
+    <option value="cybersecurity">Cybersecurity</option>
+    <option value="blockchain_applications">Blockchain applications</option>
+    <option value="other">Other</option>
+</select>
+
+<label>Career Aspirations:</label>
+<select name="career_aspirations">
+    <option value="" selected>Select...</option>
+    <option value="software_developer_engineer">Software developer/engineer</option>
+    <option value="data_scientist_analyst">Data scientist/analyst</option>
+    <option value="cybersecurity_specialist">Cybersecurity specialist</option>
+    <option value="blockchain_developer">Blockchain developer</option>
+    <option value="it_consultant">IT consultant</option>
+    <option value="other">Other</option>
+</select>
+
+<label>Interest in Problem-Solving:</label>
+<select name="problem_solving_interest">
+    <option value="" selected>Select...</option>
+    <option value="very_interested">Very interested</option>
+    <option value="somewhat_interested">Somewhat interested</option>
+    <option value="neutral">Neutral</option>
+    <option value="not_very_interested">Not very interested</option>
+    <option value="not_interested_at_all">Not interested at all</option>
+</select>
+
+<label>Familiarity with AI and ML:</label>
+<select name="ai_ml_familiarity">
+    <option value="" selected>Select...</option>
+    <option value="very_familiar">Very familiar</option>
+    <option value="somewhat_familiar">Somewhat familiar</option>
+    <option value="not_very_familiar">Not very familiar</option>
+    <option value="not_familiar_at_all">Not familiar at all</option>
+</select>
+
+<label>Awareness of Cybersecurity Risks:</label>
+<select name="cybersecurity_risks_awareness">
+    <option value="" selected>Select...</option>
+    <option value="very_aware">Very aware</option>
+    <option value="somewhat_aware">Somewhat aware</option>
+    <option value="not_very_aware">Not very aware</option>
+    <option value="not_aware_at_all">Not aware at all</option>
+</select>
+
+<label>Interest in Data Security:</label>
+<select name="data_security_interest">
+    <option value="" selected>Select...</option>
+    <option value="very_interested">Yes, very interested</option>
+    <option value="somewhat_interested">Yes, somewhat interested</option>
+    <option value="not_interested">No, not interested</option>
+</select>
+
+<label>Curiosity about Blockchain:</label>
+<select name="blockchain_curiosity">
+    <option value="" selected>Select...</option>
+    <option value="very_curious">Very curious</option>
+    <option value="somewhat_curious">Somewhat curious</option>
+    <option value="neutral">Neutral</option>
+    <option value="not_very_curious">Not very curious</option>
+    <option value="not_curious_at_all">Not curious at all</option>
+</select>
+
+<label>Motivation for Learning:</label>
+<select name="learning_motivation">
+    <option value="" selected>Select...</option>
+    <option value="career_advancement">Career advancement</option>
+    <option value="personal_interest_passion">Personal interest/passion</option>
+    <option value="problem_solving_challenges">Problem-solving challenges</option>
+    <option value="desire_for_innovation">Desire for innovation</option>
+    <option value="other">Other</option>
+</select>
+
+<label>Interest in Frontend vs Backend Development:</label>
+<select name="frontend_backend_interest">
+    <option value="" selected>Select...</option>
+    <option value="frontend">Frontend</option>
+    <option value="backend">Backend</option>
+    <option value="equally_interested">Equally interested in both</option>
+    <option value="no_preference">Not sure/no preference</option>
+</select>
+
+<label>Preference for Mobile Platforms:</label>
+<select name="mobile_platform_preference">
+    <option value="" selected>Select...</option>
+    <option value="android">Android</option>
+    <option value="ios">iOS</option>
+    <option value="both_android_ios">Both Android and iOS</option>
+    <option value="not_interested">Not interested in mobile development</option>
+</select>
+
+<label>Experience with Data Analysis:</label>
+<select name="data_analysis_experience">
+    <option value="" selected>Select...</option>
+    <option value="extensively">Yes, extensively</option>
+    <option value="a_little">Yes, a little</option>
+    <option value="interested">No, but I'm interested</option>
+    <option value="not_interested">No, not interested</option>
+</select>
+
+<label>Interest in Ethical Hacking:</label>
+<select name="ethical_hacking_interest">
+    <option value="" selected>Select...</option>
+    <option value="very_interested">Yes, very interested</option>
+    <option value="somewhat_interested">Yes, somewhat interested</option>
+    <option value="not_interested">No, not interested</option>
+</select>
+
+<label>Understanding of Cryptocurrencies:</label>
+<select name="cryptocurrency_understanding">
+    <option value="" selected>Select...</option>
+    <option value="very_well">Very well</option>
+    <option value="somewhat_well">Somewhat well</option>
+    <option value="not_very_well">Not very well</option>
+    <option value="not_at_all">Not at all</option>
+</select>
+
+<button href="index.html" type="submit">Submit</button>
+
+</div>
+</body>
+</html>
